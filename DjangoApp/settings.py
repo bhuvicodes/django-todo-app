@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['192.46.208.37',]
 # Application definition
 
 INSTALLED_APPS = [
-    "classroom.apps.ClassroomConfig",
+    'base.apps.BaseConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -113,6 +113,8 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+LOGIN_URL = "login"
 
 
 # Static files (CSS, JavaScript, Images)
